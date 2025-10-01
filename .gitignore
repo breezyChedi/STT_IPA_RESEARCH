@@ -18,6 +18,11 @@ Thumbs.db
 venv/
 env/
 
+# Model checkpoints (too large for GitHub - 400MB+ each)
+# Note: Both best_local_model.pth and best_model.pth exceed GitHub's 100MB limit
+# See README for instructions on training or downloading pre-trained models
+*.pth
+
 # Large binary data that's too big for GitHub
 # Note: Keep preprocessed metadata, exclude only the huge .pt files
 preprocessed_windows_train_1.5s_v2/*.pt
