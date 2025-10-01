@@ -868,11 +868,6 @@ Processing 74k+ windows repeatedly is wasteful.
 
 ## 📧 Contact & Contribution
 
-**Author**: [Your Name]  
-**Email**: [Your Email]  
-**LinkedIn**: [Your LinkedIn]  
-**GitHub**: [Your GitHub]
-
 ### Acknowledgments
 - This research is part of ongoing PhD work in speech processing and deep learning
 - TIMIT dataset provided by Linguistic Data Consortium (LDC)
