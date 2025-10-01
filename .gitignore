@@ -1,0 +1,36 @@
+# Python cache (unnecessary)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs (personal settings)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files (unnecessary)
+.DS_Store
+Thumbs.db
+
+# Environment files (sensitive/local)
+.env
+venv/
+env/
+
+# Large binary data that's too big for GitHub
+# Note: Keep preprocessed metadata, exclude only the huge .pt files
+preprocessed_windows_train_1.5s_v2/*.pt
+preprocessed_windows_test_1.5s_v2/*.pt
+preprocessed_windows_train_0.5s_competitive/*.pt
+preprocessed_windows_test_0.5s_competitive/*.pt
+preprocessed_windows_competitive/*.pt
+
+# Original TIMIT dataset (proprietary, too large)
+data/lisa/
+
+# Frame predictions (can regenerate, large files)
+frame_predictions/*.pkl
+
+# Keep everything else to show research journey!
+
